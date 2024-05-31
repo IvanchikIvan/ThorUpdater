@@ -1,4 +1,3 @@
-owner: Neon3341
-repo: Complexus_thor_app
-provider: github
+provider: generic
+url: https://IvanchikIvan.github.io/ThorUpdater/
 updaterCacheDirName: thor-updater

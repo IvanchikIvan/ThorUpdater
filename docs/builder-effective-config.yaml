@@ -1,6 +1,9 @@
 directories:
   output: dist
   buildResources: build
+publish:
+  - provider: generic
+    url: https://IvanchikIvan.github.io/ThorUpdater/
 appId: com.yourdomain.yourapp
 win:
   icon: build/icon.ico
