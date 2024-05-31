@@ -1,0 +1,16 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.yourdomain.yourapp
+win:
+  icon: build/icon.ico
+  target:
+    - nsis
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  installerIcon: build/installerIcon.ico
+  uninstallerIcon: build/uninstallerIcon.ico
+  installerHeaderIcon: build/installerHeaderIcon.ico
+files: []
+electronVersion: 28.3.3
